@@ -16,6 +16,7 @@ import org.slf4j.Logger;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ThinkBeforeDrop {
     public static final String MODID = "thinkbeforedrop";
+    @SuppressWarnings("unused")
     private static final Logger LOGGER = LogUtils.getLogger();
 
     @SubscribeEvent
